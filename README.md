@@ -1,6 +1,3 @@
-# image-scrapping
-# download  bulk of google images using python
-
 import os
 import requests  # pip install requests #to sent GET requests
 from bs4 import \
@@ -81,4 +78,7 @@ def download_images():
 if __name__ == '__main__':
     main()
 
+
+
+        
 
